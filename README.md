@@ -1,0 +1,2 @@
+# lajitaimages
+Galería de imágenes 
