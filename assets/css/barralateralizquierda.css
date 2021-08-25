@@ -1,0 +1,19 @@
+.contenedorCategorias img {
+    width: 33px;
+    height: 40px;
+}
+
+.categorias li {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.categorias input {
+    width: 20px;
+    height: 20px;
+}
+
+.separador-blanco {
+    background-color: #c7c7c7;
+    padding: 1px;
+}

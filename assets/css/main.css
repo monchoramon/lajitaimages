@@ -1,0 +1,14 @@
+
+/* Barra vertical izquierda */
+.barraVerticalIzquierda {
+    position: absolute;
+    top: 0;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: rgba(38,38,38);
+    color: #FFF;
+}  
+
+li {
+    list-style: none;
+}
