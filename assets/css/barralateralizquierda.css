@@ -1,19 +1,116 @@
-.contenedorCategorias img {
+.icono-bineta {
     width: 33px;
     height: 40px;
 }
 
-.categorias li {
+.categorias li, .tiposimagenes li, .tipoLicencia li {
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.categorias input {
+/* Inputs, checkbox y radios */
+.categorias input, .tiposimagenes input, .tipoLicencia input {
     width: 20px;
     height: 20px;
 }
 
-.separador-blanco {
+.separador-linea-blanca {
     background-color: #c7c7c7;
     padding: 1px;
+}
+
+/* Contenedor imágenes */
+.contenedorImagenes {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: left;
+}
+
+.contenedorImagenes figure {
+    background-color: #1b1a173f;
+    margin: 15px 5px;
+    -moz-box-flex:1;
+    -webkit-box-flex:1;
+    box-flex: 1;
+    flex: 1 1 0;
+    position: relative;
+}
+
+figure .contenedorImagenInformacion {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+figure img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+
+.contenedorInformacionImagen {
+    width: 80%;
+    padding: 5px;
+    background-color: #a33b3b80;
+
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+figure figcaption {
+    /* color:#FF8303; */
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Contenedor botones información específica imágenes */
+.contenedorBotones {
+    max-width: 80px;
+    display: block;
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+}
+
+.contenedorBotones button {
+    min-width: 100%;
+    margin-top: 10px;
+    background-color: #FF8303!important;
+    border: none!important;
+}
+
+.contenedorBotones button:hover {
+    background-color: rgb(250, 126, 2)!important;
+}
+
+.informacionAutor {
+    position: absolute;
+    bottom: 50px;
+    padding-left: 20px;
+}
+
+.especificacionImagen {
+    margin-left: 20px;
+}
+
+.btnLike {
+    color: #fff;
+    background-color: #1B1A17;
+    width: 30px;
+    height: 30px;
+}
+
+.btnLike:hover {
+    background-color: rgba(194, 188, 188, 0.795);
 }

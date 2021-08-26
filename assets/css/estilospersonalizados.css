@@ -1,0 +1,242 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.listStyleNone {
+    list-style: none!important;
+}
+
+/* Estilo de letra */
+.font-bold {
+    font-weight: bold!important;
+}
+
+/* Tamaño de letra */
+.font-size-12 {
+    font-size: 12px!important;
+}
+
+.font-size-14 {
+    font-size: 14px!important;
+}
+
+.font-size-18 {
+    font-size: 18px!important;
+}
+
+.font-size-19 {
+    font-size: 19px!important;
+}
+
+.font-size-20 {
+    font-size: 20px!important;
+}
+
+/* Margins */
+.mr3 {
+    margin-right: 3px!important;
+}
+
+.mr5 {
+    margin-right: 5px!important;
+}
+
+.mr10 {
+    margin-right: 10px!important;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.ml15 {
+    margin-left: 10px;
+}
+
+.ml16 {
+    margin-left: 16px;
+}
+
+.ml18 {
+    margin-left: 18px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.ml21 {
+    margin-left: 21px;
+}
+
+.ml25 {
+    margin-left: 25px;
+}
+
+.ml30 {
+    margin-left: 30px;
+}
+
+.ml40 {
+    margin-left: 40px;
+}
+
+
+
+/* Anchuras */
+.w100 {
+    width: 100px!important;
+}
+
+.w150 {
+    width: 150px!important;
+}
+
+
+.w200 {
+    width: 200px!important;
+}
+
+.w250 {
+    width: 250px!important;
+}
+
+.w412 {
+    width: 412px!important;
+}
+
+.colorLetraBlanco * {
+    color: rgba(255,255,255)!important;
+}
+
+.colorLetraAzul * {
+    color: rgba(47,84,150)!important;
+}
+
+.colorNaranja {
+    color: orange!important;
+}
+
+.colorVerde {
+    color: rgba(0,176,80)!important;
+}
+
+/* Colores de letra y/o caracter */
+.colorLetraNegra, .colorLetraNegra * {
+    color: rgba(0,0,0)!important;
+}
+
+/* Colores de fondo */
+.colorFondoAzul {
+    background-color: rgba(47,84,150)!important;
+}
+
+.colorFondoBlanco {
+    background-color: rgba(255,255,255)!important;
+}
+
+.colorFondoNaranja {
+    background-color: orange!important;
+}
+
+.colorFondoVerde {
+    background-color: rgba(0,176,80)!important;
+}
+
+/* Padding (x, y) */
+.p3 {
+    padding: 3px!important;
+}
+
+.p5 {
+    padding: 5px!important;
+}
+
+.p10 {
+    padding: 10px!important;
+}
+
+.p11 {
+    padding: 11px!important;
+}
+
+.p12 {
+    padding: 12px!important;
+}
+
+.p15 {
+    padding: 15px!important;
+}
+
+.p16 {
+    padding: 16px!important;
+}
+
+.p18 {
+    padding: 18px!important;
+}
+
+.p20 {
+    padding: 20px!important;
+}
+
+.p22 {
+    padding: 22px!important;
+}
+
+.p30 {
+    padding: 30px!important;
+}
+
+.mx5 {
+    margin: 0px 100px!important;
+}
+
+/* Bordes */
+.borderNS {
+    border-top: none!important;
+}
+
+.borderNI {
+    border-bottom: none!important;
+}
+
+.borderNR {
+    border-right: none!important;
+}
+
+.borderNL {
+    border-left: none!important;
+}
+
+/* Centrar contenido */
+.centrarContenido {
+    margin: 0px auto!important;    
+}
+
+/* Color transparente TR */
+.colorTrOcultar {
+    border-bottom: 1px solid transparent!important;
+}
+
+/* Bieñetas */
+.bineta {
+    min-width: 10px;
+    max-width: 10px;     
+    min-height: 10px;
+    max-height: 10px;
+    padding: 1px;
+}
+
+.lineasepradora {
+    background-color: #FF8303!important;
+    padding: 1px;
+}
